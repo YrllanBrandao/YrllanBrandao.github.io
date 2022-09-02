@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root{
+    --backgroundColor: #353C4D;
+    --backgroundSecondary: #181f2e;
+    --iconGray: #BFC2C7;
+    --secondaryColor: #cacaca;
+    --fontTitle: 'Rock Salt', cursive;
+    --fontContent: 'Quicksand',sans-serif;
+    --purpleBorder: #470ba9;
+    --socialBackground:  #8f9196;
+    --contentColor: #111827;
+    --navbarColor: #111827;
+}
+*{
+    margin: 0;
+    /* padding: 0!important; */
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.btn-gray{
+    background: var(--secondaryColor);
+}
+label{
+    color: #111827;
+}
+h2{
+    font-family: var(--fontTitle);
+    font-size: clamp(.8em, .9em, 1em);
+    text-align: center;
+}
+.navbar-brand{
+    color: #a3a3a3;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grayColor, .nav-link{
+    color: #a3a3a3;
+}
+.toggleIcon{
+    color: #a3a3a3;
+    background: url('https://api.iconify.design/ant-design/menu-outlined.svg?color=%23a3a3a3') no-repeat center center / contain!important;
+}
+.bg-menu{
+     background: var(--navbarColor); 
+}
+.bg-secondary{
+    background: #181f2e;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: #111827;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+
+
+}
+.profile-picture{
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    background: url("../_image/yrllan_profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #8f9196;
+
+
+}
+.profile-card{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* border: 2px solid red; */
+
+}
+.profile-data{
+    color: #a3a3a3;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: clamp(1.2em, 1em, 1em);
+
+}
+.section-desc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 30%;
+    
+}
+.github{
+    letter-spacing: 2px;
+    font-size: clamp(1em, 1.2em, 1.4em);
+    color: var(--backgroundSecondary);
+    text-decoration: none;
+    
+    
+}
+.github:hover{
+    color: #272f41;
+    cursor: pointer;
+}
+p{
+    font-family: var(--fontContent);
+    text-align: center;
+}
+.mv{
+    height: 100vh;
+}
+/*social media table*/
+.social-media{
+    position: fixed;
+}
+.secondary-color{
+    color: var(--secondaryColor);
+}
+.line{
+    background: #cacaca;
+    height: 1px;
+    width: 60;
+}
+footer{
+    background: var(--navbarColor);
+    height: 20vh;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--navbarColor);
+  }
+
+.pure-link{
+    border: none;
+}
+.pure-link:hover{
+    border: none;
+}
+@media (min-width: 999px)
+{
+    .navbar-nav{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+}
