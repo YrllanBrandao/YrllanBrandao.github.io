@@ -121,7 +121,22 @@ p{
 }
 /*social media table*/
 .social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
+    width: 60px;
+    height: 20vh;
+    border: 2px solid #470ba9;
+    border-radius: 40px;
+    justify-content: space-around;
+    z-index: 999;
+    right: 0;
+    bottom: 0;
+    background: #111827;
+}
+.social-media{
+    background: #8f9196;
 }
 .secondary-color{
     color: var(--secondaryColor);
