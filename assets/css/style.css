@@ -93,6 +93,25 @@ header{
     font-size: clamp(1.2em, 1em, 1em);
 
 }
+.btn-curriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontContent);
+    background: #2D0769;
+    color: #cacaca;
+    letter-spacing: 2px;
+    font-size: clamp(.7em, .9em, 1em);
+    font-weight: bold;
+    max-width: 200px;
+    margin: 15px auto;
+
+}
+.btn-curriculum:hover{
+    background: #6310E8;
+    color: #111827;
+}
+
 .section-desc{
     display: flex;
     justify-content: space-around;
