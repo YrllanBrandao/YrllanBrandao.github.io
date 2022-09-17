@@ -136,7 +136,7 @@ p{
     text-align: center;
 }
 .mv{
-    height: 100vh;
+    min-height: 100vh;
 }
 /*social media table*/
 .social-media{
